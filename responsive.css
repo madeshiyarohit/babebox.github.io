@@ -1,0 +1,182 @@
+@media only screen and (max-width:1130px)
+{
+    .beauty-section-box-1 h2 {
+        font-size: 60px;
+        line-height: 1.2;
+    }
+    .bottom-header-section-box-2 ul li{
+        display: none;
+    }
+    .bottom-header-section-box-2 ul .cart-bag{
+        display: block!important;
+    }
+    .mid-header-section{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .bottom-header-section{
+        background-color: #f9b3ca;
+    }
+    .cart-bag-1{
+        display: none;
+    }
+    .cart-bag-2{
+        display: block;
+    }
+    .bottom-header-section-box-1 h2{
+        color: #fff;
+    }
+}
+@media only screen and (max-width:1108px) {
+    .beauty-section-box-1 h2 {
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:1070px) {
+    .footer-block-section-1{
+        width: 100%;
+    }
+    .footer-block-section-2{
+        width: 100%;
+    }
+    .footer-bottom-content {
+        padding-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .bottom-content-1,.bottom-content-2{
+        margin:5px 0px
+    }
+    .footer-block-box{
+        padding-top: 10px;
+    }
+}
+@media only screen and  (max-width:1024px ) {
+    .beauty-section .container{
+        width: 90%;
+    }
+    .babe-box {
+        width: 50%;
+    }
+    .person-content .image{
+        top: 5%;
+        right: 5%;
+    }
+    .person-content p{
+        padding-top: 20px;
+        text-align: justify;
+    }
+    .map-content{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:884px) {
+    .beauty-section-container{
+        flex-direction: column-reverse;
+    }
+    .beauty-section .container{
+        width: 80%;
+    }
+    .beauty-section-box-1, .beauty-section-box-2 {
+        width: 100%;
+    }
+    .beauty-section-box-1{
+        width: 100%;
+        text-align: center;
+    }
+    .brand-fields{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .beauty-section .bottom-para {
+        padding-right: 0;
+    }
+    .beauty-section-box-1 p {
+        padding: 10px 0px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .brand-section{
+        display: none;
+    }
+    .bottom-content-1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .bottom-content-2{
+        width: 100%;
+    }
+    .accordion {
+        width: 100%;
+    }
+    .map-content{
+        width: 80%;
+    }
+    .map-main-box{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:575px){
+    .map-main-box{
+        width: 100%;
+    }
+    .map-main-box .map-content h2{
+        font-size: 28px;
+    }
+    .map-main-box .map-content p{
+        font-size: 16px;
+    }.map-main-box .map-content a{
+        padding: 5px 10px;
+    }
+}
+@media only screen and (max-width:525px) {
+    .babe-box {
+        width: 100%;
+    }
+    .map-content{
+        width: 90%;
+    }.main-babe-box {
+        margin: 5px;
+        display: flex;
+    }
+    .babe-box-image-section,.babe-box-content-section{
+        width: 50%;
+    }
+    .babe-box-content-section{
+        text-align: left;
+    }
+    .babe-box-section{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:480px) {
+    .beauty-section-box-1 h2 {
+        font-size: 45px;
+        line-height: 1.2;
+    }   
+    .btn-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .beauty-section-box-1 .btn-section .btn-first {
+        background-color: #f9b3ca;
+        border: none;
+        margin:10px 0px;
+    }
+    .beauty-section-box-1 .btn-section .btn-second {
+        margin:0px;
+    }   
+    .map-main-box .map-content h2{
+        font-size: 24px;
+    }
+    .map-main-box .map-content p{
+        font-size: 14px;
+    }.map-main-box .map-content a{
+        font-size: 14px;
+    }
+}
