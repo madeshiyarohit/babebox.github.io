@@ -63,8 +63,12 @@
         width: 50%;
     }
     .person-content .image{
-        top: 5%;
-        right: 5%;
+        /* top: 5%;
+        right: 5%; */
+        display: none;
+    }
+    .person-content .image-2{
+        display: block;
     }
     .person-content p{
         padding-top: 20px;
@@ -72,6 +76,9 @@
     }
     .map-content{
         width: 60%;
+    }
+    .person-section{
+        margin: 0px;
     }
 }
 @media only screen and (max-width:884px) {
@@ -120,6 +127,12 @@
     .map-main-box{
         width: 90%;
     }
+    .hover-babe-boxes{
+        width: 50%;
+    }
+    .babebox-hover-head{
+        width: 80%;
+    }
 }
 @media only screen and (max-width:575px){
     .map-main-box{
@@ -132,6 +145,12 @@
         font-size: 16px;
     }.map-main-box .map-content a{
         padding: 5px 10px;
+    }
+    .babebox-hover-head{
+        width: 90%;
+    }
+    .our-customer-slide-section{
+        width: 90%;
     }
 }
 @media only screen and (max-width:525px) {
@@ -153,12 +172,27 @@
     .babe-box-section{
         width: 90%;
     }
+    .hover-babe-boxes{
+        width:100%;
+    }
 }
 @media only screen and (max-width:480px) {
     .beauty-section-box-1 h2 {
         font-size: 45px;
         line-height: 1.2;
     }   
+    .babebox-hover-head{
+        width: 100%;
+    }
+    .babebox-hover-main-box{
+        padding: 30px 0px;
+    }
+    .babebox-hover-head p{
+        font-size: 16px;
+    }
+    .map-content p {
+        padding: 10px 0px;
+    }
     .btn-section{
         display: flex;
         flex-direction: column;
@@ -178,5 +212,11 @@
         font-size: 14px;
     }.map-main-box .map-content a{
         font-size: 14px;
+    }
+    .our-customer-slide-section{
+        width: 100%;
+    }
+    .person-section{
+        margin: 0px;
     }
 }
