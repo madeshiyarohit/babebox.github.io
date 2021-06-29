@@ -219,4 +219,10 @@
     .person-section{
         margin: 0px;
     }
+    .beauty-section-box-1 h2{
+        font-size: 36px;
+    }
+    .babebox-hover-head p{
+        padding: 10px 20px; 
+    }
 }
