@@ -256,7 +256,6 @@ body{
     padding: 20px 10px;
 }
 .person-section{
-
     margin: 80px 0px;
     cursor: grab;
 
@@ -267,6 +266,14 @@ body{
     margin: 10px;
     border-radius: 10px;
     position: relative;
+}
+.person-content img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.person-content .image-2{
+    display: none;
 }
 .our-customer-slide-section{
     width: 80%;
@@ -527,7 +534,7 @@ body{
     top: 50%;
     left: 50%;
     z-index: 1;
-    padding: 50px;
+    padding: 50px 0px;
     transform: translate(-50%, -50%);
 }
 
@@ -565,4 +572,134 @@ body{
     color: #fff;
     background-color: #000;
     cursor: pointer;
+}
+/*Babe Box Hover Section Start*/
+.babebox-hover-section{
+    width: 100%;
+    padding-top: 50px;
+}
+.babebox-hover-head{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+.babebox-hover-head h2{
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+}
+.babebox-hover-head h2:before{
+    content: '';
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    padding: 0px 15px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f9b3ca;
+    z-index: -1;
+}
+.babebox-hover-head p{
+    padding: 10px 50px;
+    font-weight: 550;
+    font-size: 20px;
+}
+.babebox-hover-main-box{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.hover-babe-boxes{
+    width: 25%;
+    cursor: pointer;
+}
+.hover-babe-boxes:hover .babe-boxes-2{
+    opacity: 1;
+} 
+.hover-babe-boxes:hover .babe-boxes-2 .babe-box-2-content{
+    top: 50%;
+    transform: translateY(-50%);
+}
+.babe-box-margin-div{
+    margin: 5px;
+    position: relative;
+}
+.babe-box-margin-div .babe-boxes-1 img{
+    width: 100%;
+    display: block;
+}
+.babe-boxes-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+}
+.babe-boxes-2 .babe-box-2-content{
+  padding: 10px 30px;
+  text-align: center;
+  color: #fff;
+  top: 60%;
+  position: absolute;
+  transform: translateY(-60%);
+  transition: 0.3s;
+}
+.babe-box-2-content .social-icons{
+    width: 40%;
+    margin: 0 auto;
+}
+.babe-box-2-content .social-icons ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.babe-box-2-content .social-icons ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.babe-box-2-content .social-icons ul li img{
+    height: 20px;
+    width: 20px;
+    padding: 5px 10px; 
+}
+/* Babe box section start */
+.babe-box-store-section{
+    width: 100%;
+}
+.babe-box-store-head{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.babe-box-store-head h2{
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+}
+.babe-box-store-head h2:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px 15px;
+    width: 100%;
+    height: 40%;
+    background-color: #f9b3ca;
+    z-index: -1;
+}
+.babe-store-custom-images ul{
+    list-style: none;
+    padding: 30px 0px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
