@@ -215,7 +215,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px;
+    padding: 25px 0px;
 }
 .brand-items{
     padding : 0px 10px
@@ -702,4 +702,55 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+.whats-in-your-box-section{
+    width: 100%;
+    padding: 50px 0px;
+}
+.whats-in-your-box-head{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.whats-in-your-box-head h2{
+    display: inline-block;
+    position: relative;
+}
+.whats-in-your-box-head h2:before{
+    position: absolute;
+    content: '';
+    height: 40%;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    background-color: #f9b3ca;
+}
+.whats-in-your-box-head p{
+    font-size: 24px;
+    padding: 20px 0px;
+    font-weight: 550;
+}
+.whats-in-your-box-main-section{
+    width: 100%;
+}
+.whats-in-your-box-main-block{
+    width: 40%;
+    margin: 0 auto;
+}
+.whats-in-your-box-main-block .box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.in-your-box-image-section{
+    padding: 30px;
+}
+.whats-in-your-box-main-block .box h3{
+    font-size: 22px;
+}
+.whats-in-your-box-main-block .box p{
+    font-size: 14px;
+    font-weight: 550;
 }
