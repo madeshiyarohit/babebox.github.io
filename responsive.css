@@ -80,6 +80,12 @@
     .person-section{
         margin: 0px;
     }
+    .whats-in-your-box-main-block{
+        width: 60%;
+    }
+    .whats-in-your-box-head{
+        width: 80%;
+    }
 }
 @media only screen and (max-width:884px) {
     .beauty-section-container{
@@ -133,6 +139,12 @@
     .babebox-hover-head{
         width: 80%;
     }
+    .whats-in-your-box-main-block{
+        width: 100%;
+    }
+    .whats-in-your-box-head{
+        width: 90%;
+    }
 }
 @media only screen and (max-width:575px){
     .map-main-box{
@@ -151,6 +163,9 @@
     }
     .our-customer-slide-section{
         width: 90%;
+    }
+    .whats-in-your-box-head p{
+        font-size: 18px;
     }
 }
 @media only screen and (max-width:525px) {
@@ -181,6 +196,12 @@
         font-size: 45px;
         line-height: 1.2;
     }   
+    .whats-in-your-box-main-block .box{
+        flex-direction: column;
+    }
+    .in-your-box-content-section{
+        text-align: center;
+    }
     .babebox-hover-head{
         width: 100%;
     }
