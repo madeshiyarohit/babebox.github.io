@@ -1,44 +1,45 @@
-@media only screen and (max-width:1130px)
-{
+@media only screen and (max-width:1130px) {
     .beauty-section-box-1 h2 {
         font-size: 60px;
         line-height: 1.2;
     }
-    .bottom-header-section-box-2 ul li{
+    .bottom-header-section-box-2 ul li {
         display: none;
     }
-    .bottom-header-section-box-2 ul .cart-bag{
+    .bottom-header-section-box-2 ul .cart-bag {
         display: block!important;
     }
-    .mid-header-section{
+    .mid-header-section {
         display: none;
     }
-    .burger-menu{
+    .burger-menu {
         display: block;
     }
-    .bottom-header-section{
+    .bottom-header-section {
         background-color: #f9b3ca;
     }
-    .cart-bag-1{
+    .cart-bag-1 {
         display: none;
     }
-    .cart-bag-2{
+    .cart-bag-2 {
         display: block;
     }
-    .bottom-header-section-box-1 h2{
+    .bottom-header-section-box-1 h2 {
         color: #fff;
     }
 }
+
 @media only screen and (max-width:1108px) {
     .beauty-section-box-1 h2 {
         font-size: 50px;
     }
 }
+
 @media only screen and (max-width:1070px) {
-    .footer-block-section-1{
+    .footer-block-section-1 {
         width: 100%;
     }
-    .footer-block-section-2{
+    .footer-block-section-2 {
         width: 100%;
     }
     .footer-bottom-content {
@@ -48,60 +49,71 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .bottom-content-1,.bottom-content-2{
-        margin:5px 0px
+    .bottom-content-1,
+    .bottom-content-2 {
+        margin: 5px 0px
     }
-    .footer-block-box{
+    .footer-block-box {
         padding-top: 10px;
     }
 }
-@media only screen and  (max-width:1024px ) {
-    .beauty-section .container{
+
+@media only screen and (max-width:1024px) {
+    .beauty-section .container {
         width: 90%;
     }
     .babe-box {
         width: 50%;
     }
-    .person-content .image{
+    .person-content .image {
         /* top: 5%;
         right: 5%; */
         display: none;
     }
-    .person-content .image-2{
+    .person-content .image-2 {
         display: block;
     }
-    .person-content p{
+    .person-content p {
         padding-top: 20px;
         text-align: justify;
     }
-    .map-content{
+    .map-content {
         width: 60%;
     }
-    .person-section{
+    .person-section {
         margin: 0px;
     }
-    .whats-in-your-box-main-block{
+    .whats-in-your-box-main-block {
         width: 60%;
     }
-    .whats-in-your-box-head{
+    .whats-in-your-box-head {
         width: 80%;
+    }
+    .past-box-head {
+        width: 80%;
+        padding: 10px 0px;
+    }
+    .past-section-main-block {
+        width: 95%;
     }
 }
+
 @media only screen and (max-width:884px) {
-    .beauty-section-container{
+    .beauty-section-container {
         flex-direction: column-reverse;
     }
-    .beauty-section .container{
+    .beauty-section .container {
         width: 80%;
     }
-    .beauty-section-box-1, .beauty-section-box-2 {
+    .beauty-section-box-1,
+    .beauty-section-box-2 {
         width: 100%;
     }
-    .beauty-section-box-1{
+    .beauty-section-box-1 {
         width: 100%;
         text-align: center;
     }
-    .brand-fields{
+    .brand-fields {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -113,137 +125,166 @@
         padding: 10px 0px;
     }
 }
+
 @media only screen and (max-width:768px) {
-    .brand-section{
+    .brand-section {
         display: none;
     }
-    .bottom-content-1{
+    .bottom-content-1 {
         flex-direction: column;
         width: 100%;
     }
-    .bottom-content-2{
+    .bottom-content-2 {
         width: 100%;
     }
     .accordion {
         width: 100%;
     }
-    .map-content{
+    .map-content {
         width: 80%;
     }
-    .map-main-box{
+    .map-main-box {
         width: 90%;
     }
-    .hover-babe-boxes{
+    .hover-babe-boxes {
         width: 50%;
     }
-    .babebox-hover-head{
+    .babebox-hover-head {
         width: 80%;
     }
-    .whats-in-your-box-main-block{
+    .whats-in-your-box-main-block {
         width: 100%;
     }
-    .whats-in-your-box-head{
+    .whats-in-your-box-head {
         width: 90%;
+    }
+    .past-box-section {
+        padding: 100px 0px 10px 0px;
+    }
+    .past-box-head p {
+        font-size: 16px;
+        padding: 10px 50px;
+    }
+    .past-section-sub-block {
+        width: 50%;
+    }
+    .hand-image-div {
+        top: -3%;
     }
 }
-@media only screen and (max-width:575px){
-    .map-main-box{
+
+@media only screen and (max-width:575px) {
+    .map-main-box {
         width: 100%;
     }
-    .map-main-box .map-content h2{
+    .map-main-box .map-content h2 {
         font-size: 28px;
     }
-    .map-main-box .map-content p{
+    .map-main-box .map-content p {
         font-size: 16px;
-    }.map-main-box .map-content a{
+    }
+    .map-main-box .map-content a {
         padding: 5px 10px;
     }
-    .babebox-hover-head{
+    .babebox-hover-head {
         width: 90%;
     }
-    .our-customer-slide-section{
+    .our-customer-slide-section {
         width: 90%;
     }
-    .whats-in-your-box-head p{
+    .whats-in-your-box-head p {
         font-size: 18px;
     }
 }
+
 @media only screen and (max-width:525px) {
     .babe-box {
         width: 100%;
     }
-    .map-content{
+    .map-content {
         width: 90%;
-    }.main-babe-box {
+    }
+    .main-babe-box {
         margin: 5px;
         display: flex;
     }
-    .babe-box-image-section,.babe-box-content-section{
+    .babe-box-image-section,
+    .babe-box-content-section {
         width: 50%;
     }
-    .babe-box-content-section{
+    .babe-box-content-section {
         text-align: left;
     }
-    .babe-box-section{
+    .babe-box-section {
         width: 90%;
     }
-    .hover-babe-boxes{
-        width:100%;
-    }
-}
-@media only screen and (max-width:480px) {
-    .beauty-section-box-1 h2 {
-        font-size: 45px;
-        line-height: 1.2;
-    }   
-    .whats-in-your-box-main-block .box{
-        flex-direction: column;
-    }
-    .in-your-box-content-section{
-        text-align: center;
-    }
-    .babebox-hover-head{
+    .hover-babe-boxes {
         width: 100%;
     }
-    .babebox-hover-main-box{
-        padding: 30px 0px;
-    }
-    .babebox-hover-head p{
-        font-size: 16px;
-    }
-    .map-content p {
-        padding: 10px 0px;
-    }
-    .btn-section{
-        display: flex;
-        flex-direction: column;
-    }
-    .beauty-section-box-1 .btn-section .btn-first {
-        background-color: #f9b3ca;
-        border: none;
-        margin:10px 0px;
-    }
-    .beauty-section-box-1 .btn-section .btn-second {
-        margin:0px;
-    }   
-    .map-main-box .map-content h2{
-        font-size: 24px;
-    }
-    .map-main-box .map-content p{
-        font-size: 14px;
-    }.map-main-box .map-content a{
-        font-size: 14px;
-    }
-    .our-customer-slide-section{
-        width: 100%;
-    }
-    .person-section{
-        margin: 0px;
-    }
-    .beauty-section-box-1 h2{
-        font-size: 36px;
-    }
-    .babebox-hover-head p{
-        padding: 10px 20px; 
+    .past-box-head p {
+        padding: 10px;
     }
 }
+    @media only screen and (max-width:480px) {
+        .beauty-section-box-1 h2 {
+            font-size: 45px;
+            line-height: 1.2;
+        }
+        .whats-in-your-box-main-block .box {
+            flex-direction: column;
+        }
+        .in-your-box-content-section {
+            text-align: center;
+        }
+        .babebox-hover-head {
+            width: 100%;
+        }
+        .babebox-hover-main-box {
+            padding: 30px 0px;
+        }
+        .babebox-hover-head p {
+            font-size: 16px;
+        }
+        .map-content p {
+            padding: 10px 0px;
+        }
+        .btn-section {
+            display: flex;
+            flex-direction: column;
+        }
+        .beauty-section-box-1 .btn-section .btn-first {
+            background-color: #f9b3ca;
+            border: none;
+            margin: 10px 0px;
+        }
+        .beauty-section-box-1 .btn-section .btn-second {
+            margin: 0px;
+        }
+        .map-main-box .map-content h2 {
+            font-size: 24px;
+        }
+        .map-main-box .map-content p {
+            font-size: 14px;
+        }
+        .map-main-box .map-content a {
+            font-size: 14px;
+        }
+        .our-customer-slide-section {
+            width: 100%;
+        }
+        .person-section {
+            margin: 0px;
+        }
+        .beauty-section-box-1 h2 {
+            font-size: 36px;
+        }
+        .babebox-hover-head p {
+            padding: 10px 20px;
+        }
+        .past-section-sub-block {
+            width: 100%;
+        }
+        .hand-image-div {
+            top: -1%;
+        }
+    }
