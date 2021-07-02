@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body[data-aos-duration='4000'] [data-aos],[data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 4000ms;
+}
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;  
 }
 .wrapper{
     width: 100%;
@@ -679,10 +682,11 @@ body{
 .babe-store-custom-images ul{
     list-style: none;
     padding: 30px 0px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .filter-section-main-block{
     width: 90%;
@@ -706,6 +710,10 @@ body{
     margin: 10px 0px;
     padding: 0px 10px;
     text-align: center  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .filter-inner-block img{
     width: 100%;
@@ -717,9 +725,11 @@ body{
 .filter-head a {
     padding: 10px 20px;
     cursor: pointer;
+    margin: 5px 0px;
 }
 .filter-border-div{
     display: flex;
+    flex-direction: row;
 }
 .filter-btn-1{
     background-color: #000;
@@ -760,9 +770,14 @@ body{
 .filter-inner-block a{
     background-color: #f9b3ca;
     padding: 10px 20px;
-    display: inline-block;   
+    display: inline-block;  
+    cursor: pointer; 
 }
-
+.babe-store-custom-images ul li {
+    width: 16.66%;
+    text-align: center;
+    margin: 10px 0px;
+}
 
 
 
@@ -890,3 +905,140 @@ body{
     padding: 5px 0px;
     font-style: italic;
 }
+.pricing-main-block {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.pricing-inner-block {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px 0px;
+}
+.pricing-sub-block {
+    width: 25%;
+}
+.pricing-top-block h3 {
+    font-size: 70px;
+    text-align: center;
+    color: lightblue;
+}
+.pricing-button-section p {
+    padding: 5px 0px;
+    color: #A0A0A0;
+    font-size: 14px;
+}
+.pricing-top-block h2 {
+    font-size: 45px;
+    font-weight: 550;
+    text-align: center;
+}
+.pricing-top-block {
+    width: 80%;
+    margin: 0 auto;
+}
+.pricing-mid-block {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.pricing-bottom-block ul li img {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+.pricing-bottom-block ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pricing-bottom-block ul {
+    list-style: none;
+}
+.pricing-bottom-block {
+    width: 80%;
+    margin: 0 auto;
+}
+.pricing-button-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+.pricing-button-section p {
+    padding: 5px 0px;
+}
+
+.pricing-button-section a {
+    background-color: #f9b3ca;
+    padding: 10px 20px;
+    font-weight: 550;
+    font-size: 22px;
+}
+.pricing-bottm-content-section p {
+    padding: 0px 20px;
+    font-size: 14px;
+    font-weight: 550;
+    text-align: justify;
+}
+.pricing-bottm-content-section p span{
+    color: blue;;
+}
+.pricing-bottm-content-section {
+    width: 90%;
+    margin: 0 auto;
+}
+.pricing-top-block p {
+    text-align: center;
+}
+.bottom-image-with-text-section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    justify-content: center;
+}
+.bottom-image-box {
+    width: 33.33%;
+}
+.bottom-image-box .iner-box {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bottom-image-box .iner-box .inner-box-1 {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 25%;
+    margin: 10px;
+}
+.bottom-image-box .iner-box .inner-box-1 img {
+    width: 100%;
+    display: block;
+}
+.bottom-image-box .iner-box .inner-box-2 {
+    width: 75%;
+}
+.bottom-image-box .iner-box .inner-box-1 .image-div{
+    margin: 20px;
+}
+.bottom-image-box .iner-box .inner-box-2 p {
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.bottom-image-box .iner-box .inner-box-2 h2 {
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
