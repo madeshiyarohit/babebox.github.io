@@ -96,6 +96,12 @@
     .past-section-main-block {
         width: 95%;
     }
+    .filter-item-block{
+        width: 50%;
+    }
+    .babe-store-custom-images ul li{
+        width: 33.33%;
+    }
 }
 
 @media only screen and (max-width:884px) {
@@ -125,7 +131,6 @@
         padding: 10px 0px;
     }
 }
-
 @media only screen and (max-width:768px) {
     .brand-section {
         display: none;
@@ -171,6 +176,14 @@
     .hand-image-div {
         top: -3%;
     }
+    .babe-store-custom-images ul{
+        width: 90%;
+    }
+    .pricing-main-section .pricing-head {        text-align: center;
+        width: 80%;
+    }
+    
+
 }
 
 @media only screen and (max-width:575px) {
@@ -194,6 +207,9 @@
     }
     .whats-in-your-box-head p {
         font-size: 18px;
+    }
+    .pricing-main-section .pricing-head p {
+        font-size: 20px;
     }
 }
 
@@ -222,6 +238,15 @@
         width: 100%;
     }
     .past-box-head p {
+        padding: 10px;
+    }
+    .babe-store-custom-images ul li{
+        width: 50%;
+    }
+    .filter-item-block {
+        width: 100%;
+    }
+    .filter-head a {
         padding: 10px;
     }
 }
@@ -287,4 +312,65 @@
         .hand-image-div {
             top: -1%;
         }
+        .filter-head a{
+            width: 100%;
+            padding: 10px 5px;
+            font-size: 12px;
+        }
+        .pricing-main-section .pricing-head p {
+            font-size: 16px;
+            padding: 5px 0px;
+        }
+        .pricing-main-section .pricing-head{
+            width: 90%;
+        }
+        .pricing-main-section{
+            padding: 20px 0px;
+        }
+        .filter-btn-1{
+            width: 150px!important;
+            text-align: center;
+        }
+        .filter-btn-2{
+            text-align: center;
+            width: 150px!important;
+        }
+        .babe-box-store-head h2 {
+            font-size: 24px;
+            margin: 10px 0px;
+        }
     }
+
+
+
+
+@media only screen and (max-width : 1288px)
+{
+    .pricing-top-block h2 {
+        font-size: 40px;
+    }
+    .pricing-top-block h3 {
+        font-size: 60px;
+    }
+    .pricing-bottom-block ul li p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:1188px) {
+    .pricing-sub-block {
+        width: 50%;
+    }  
+    .bottom-image-box {
+        width: 50%;
+    }
+}
+@media only screen and (max-width:590px) {
+    .pricing-sub-block {
+        width: 100%;
+    }  
+}
+@media only screen and (max-width:768px) {
+    .bottom-image-box {
+        width: 100%;
+    }
+}
